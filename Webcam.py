@@ -16,7 +16,7 @@ while True:
         break
 
     # Show webcam
-	cv2.imshow('WEBCAM', frame)
+    cv2.imshow('WEBCAM', frame)
 
     if cv2.waitKey(1) == ord(' '):
         break
